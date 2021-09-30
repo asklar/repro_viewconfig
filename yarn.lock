@@ -1314,6 +1314,22 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
+"@types/react-native@*":
+  version "0.65.2"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.65.2.tgz#2fd4b5c60a4e2a02668dc304de0d7192013f5d14"
+  integrity sha512-UjDkN6rvgZkvVl2726bCPjIupyBUt40Uv+FhtDPwGj6n7ShiHggAfv6Xl7Pzbc36L5qUIWSmBrrFBLJXZ4MEig==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*":
+  version "17.0.26"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.26.tgz#960ea4b3518cc154ed7df3b35656c508df653331"
+  integrity sha512-MXxuXrH2xOcv5cp/su4oz69dNQnSA90JjFw5HBd5wifw6Ihi94j7dRJm7qNsB30tnruXSCPc9qmlhGop4nh9Hw==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
 "@types/react@^17.0.25":
   version "17.0.25"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.25.tgz#8b88c226e54910762decc9de2aa36b4dc9240503"
@@ -5462,10 +5478,14 @@ react-native-windows@0.65.3:
     whatwg-fetch "^3.0.0"
     ws "^6.1.4"
 
-react-native-xaml@^0.0.43:
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/react-native-xaml/-/react-native-xaml-0.0.43.tgz#141c8eb76d80b6374cdaaa1ceb9a442ebca94ddd"
-  integrity sha512-QhDwtktHih5x2xknAHpr3ZzhpuZT34HtZCKkYIEOvgMC3YZzCKtSRgW4dwJ8dE7QgLC54h170bhTTzgRBQJ4KQ==
+react-native-xaml@^0.0.45:
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/react-native-xaml/-/react-native-xaml-0.0.45.tgz#36059621ce5ffa382743e7ccc3e25a7199712078"
+  integrity sha512-WJNSoAbUjOssBRW5zDZ0juXGDHLa0CabJrABT44/n0BysfwX64Ri3QPbpm5XzHsHpc6m9UJJnPvlitZjSJAQ3g==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+    typescript "^4.4.3"
 
 react-native@0.65.1:
   version "0.65.1"
@@ -6477,6 +6497,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@^4.4.3:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
+  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
 
 uglify-es@^3.1.9:
   version "3.3.9"
