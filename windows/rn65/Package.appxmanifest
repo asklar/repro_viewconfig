@@ -9,7 +9,7 @@
   <Identity
     Name="c670e8c6-e8a0-49ac-a74b-9e37f839ca9f"
     Publisher="CN=asklar"
-    Version="1.0.0.0" />
+    Version="1.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="c670e8c6-e8a0-49ac-a74b-9e37f839ca9f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
