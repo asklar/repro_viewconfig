@@ -81,7 +81,7 @@
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundle>Never</AppxBundle>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-    <PackageCertificateThumbprint>4A36B8E95C692981459546A2C91AD5ED5E137078</PackageCertificateThumbprint>
+    <!-- <PackageCertificateThumbprint>4A36B8E95C692981459546A2C91AD5ED5E137078</PackageCertificateThumbprint> -->
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
